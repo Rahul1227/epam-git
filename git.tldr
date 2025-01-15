@@ -50,15 +50,19 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 123.33333587646484,
-			"y": 134,
-			"lastActivityTimestamp": 1736933726285,
+			"x": 313.3333435058594,
+			"y": 271.3333435058594,
+			"lastActivityTimestamp": 1736935451841,
 			"meta": {}
 		},
 		{
 			"followingUserId": null,
 			"opacityForNextShape": 1,
-			"stylesForNextShape": {},
+			"stylesForNextShape": {
+				"tldraw:color": "black",
+				"tldraw:size": "s",
+				"tldraw:font": "draw"
+			},
 			"brush": null,
 			"scribbles": [],
 			"cursor": {
@@ -73,7 +77,7 @@
 				"x": 0,
 				"y": 0,
 				"w": 976,
-				"h": 638
+				"h": 376
 			},
 			"insets": [
 				false,
@@ -101,12 +105,12 @@
 			"typeName": "instance"
 		},
 		{
-			"editingShapeId": "shape:0Hc2BJ9P07kgFYy4X10Su",
+			"editingShapeId": null,
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:0Hc2BJ9P07kgFYy4X10Su"
+				"shape:ZyTeCjsU2MWQ3pQKO_XBr"
 			],
-			"hoveredShapeId": "shape:0Hc2BJ9P07kgFYy4X10Su",
+			"hoveredShapeId": "shape:ZyTeCjsU2MWQ3pQKO_XBr",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -133,7 +137,7 @@
 			"id": "shape:NYuuqEYbN2v5g1TCvuE3t",
 			"type": "text",
 			"props": {
-				"color": "black",
+				"color": "red",
 				"size": "m",
 				"w": 404.00000762939453,
 				"text": "git merge v/s git rebase",
@@ -157,8 +161,8 @@
 			"type": "text",
 			"props": {
 				"color": "black",
-				"size": "m",
-				"w": 332.66668701171875,
+				"size": "s",
+				"w": 572.6667175292969,
 				"text": "Donot use git rebase on the public branch",
 				"font": "draw",
 				"textAlign": "start",
@@ -167,6 +171,52 @@
 			},
 			"parentId": "page:page",
 			"index": "a2A3h",
+			"typeName": "shape"
+		},
+		{
+			"x": 67.33334350585938,
+			"y": 150.52083778381348,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:OB0XsQ4PpurmvH5cRen4Z",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "s",
+				"w": 449.33335876464844,
+				"text": "Just increasing the count of git commit",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a31fO",
+			"typeName": "shape"
+		},
+		{
+			"x": 263.33332443237305,
+			"y": 245.85418128967285,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:ZyTeCjsU2MWQ3pQKO_XBr",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "s",
+				"w": 307.33337783813477,
+				"text": "testing git reset --hard",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a46wd",
 			"typeName": "shape"
 		}
 	]
